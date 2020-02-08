@@ -1,0 +1,22 @@
+{
+    "extends": [
+      "config:base"
+    ],
+    "packageRules": [
+      {
+        "packagePatterns": [
+          "*"
+        ],
+        "minor": {
+          "groupName": "all non-major dependencies",
+          "groupSlug": "all-minor-patch"
+        }
+      }
+    ],
+    "gradle": {
+      "enabled": true
+    },
+    "prHourlyLimit": 0,
+    "prConcurrentLimit": 0
+  }
+  
