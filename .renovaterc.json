@@ -14,7 +14,8 @@
       }
     ],
     "gradle": {
-      "enabled": true
+      "enabled": true,
+      "fileMatch": ["^build.gradle$"]
     },
     "prHourlyLimit": 0,
     "prConcurrentLimit": 0
